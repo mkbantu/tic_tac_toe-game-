@@ -14,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,6 +25,10 @@
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ti-tac-toe game.cpp",
@@ -32,7 +36,7 @@
               "RelativeDocumentMoniker": "ti-tac-toe game\\ti-tac-toe game.cpp",
               "ToolTip": "C:\\Users\\Mkbantu\\OneDrive\\Documents\\ti-tac-toe game\\ti-tac-toe game\\ti-tac-toe game.cpp",
               "RelativeToolTip": "ti-tac-toe game\\ti-tac-toe game.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-25T21:03:38.24Z",
               "EditorCaption": ""

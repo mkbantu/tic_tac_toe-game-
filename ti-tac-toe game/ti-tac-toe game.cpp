@@ -2,10 +2,35 @@
 //
 
 #include <iostream>
+#include<iomanip>
+using namespace std;
+char board [3][3] ={{'1','2','3'},{'1','2','3'},{ '1','2','3'}};
+
+void drawing_board() {
+    cout << setw(55)<<board[0][0]<<setw(5) << "|" << setw(5) << board[0][1] << setw(5) << "|"  <<setw(5)<<board[0][2] << endl;
+    cout << setw(50);
+    for (int i = 0; i <= 32; i++) {
+        cout << "-";
+    }
+    cout << "\n";
+    cout << setw(55) << board[0][0] << setw(5) << "|" << setw(5) << board[0][1] << setw(5) << "|" << setw(5) << board[0][2] << endl;
+    cout << setw(50);
+    for (int i = 0; i <= 32; i++) {
+        cout << "-";
+    }
+    cout << "\n";
+    cout << setw(55) << board[0][0] << setw(5) << "|" << setw(5) << board[0][1] << setw(5) << "|" << setw(5) << board[0][2] << endl;
+    cout << setw(50);
+    for (int i = 0; i <= 32; i++) {
+        cout << "-";
+    }
+    cout << "\n";
+   
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    drawing_board();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
