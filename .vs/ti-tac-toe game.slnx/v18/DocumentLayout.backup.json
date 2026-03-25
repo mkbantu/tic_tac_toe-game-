@@ -14,8 +14,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ti-tac-toe game.cpp",
+              "DocumentMoniker": "C:\\Users\\Mkbantu\\OneDrive\\Documents\\ti-tac-toe game\\ti-tac-toe game\\ti-tac-toe game.cpp",
+              "RelativeDocumentMoniker": "ti-tac-toe game\\ti-tac-toe game.cpp",
+              "ToolTip": "C:\\Users\\Mkbantu\\OneDrive\\Documents\\ti-tac-toe game\\ti-tac-toe game\\ti-tac-toe game.cpp",
+              "RelativeToolTip": "ti-tac-toe game\\ti-tac-toe game.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-25T21:03:38.24Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -27,19 +41,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ti-tac-toe game.cpp",
-              "DocumentMoniker": "C:\\Users\\Mkbantu\\OneDrive\\Documents\\ti-tac-toe game\\ti-tac-toe game\\ti-tac-toe game.cpp",
-              "RelativeDocumentMoniker": "ti-tac-toe game\\ti-tac-toe game.cpp",
-              "ToolTip": "C:\\Users\\Mkbantu\\OneDrive\\Documents\\ti-tac-toe game\\ti-tac-toe game\\ti-tac-toe game.cpp*",
-              "RelativeToolTip": "ti-tac-toe game\\ti-tac-toe game.cpp*",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-03-25T21:03:38.24Z",
-              "EditorCaption": ""
             }
           ]
         }
