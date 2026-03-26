@@ -27,7 +27,7 @@ void drawing_board() {
     cout << "\n";
    
 }
-void gues(int slot) {
+void gues(int slot,char mark) {
     int row, column;
     if (slot % 3 == 0) {
         column = 2;
@@ -43,7 +43,24 @@ void gues(int slot) {
 
     }
 
-    cout << row << column;
+	board[row][column] = mark;
+}
+char check_winner( int player) {
+    for (int i = 0; i < 3; i++) {
+        if (board[i][0] == board[i][1] && board[i][1] == board[i][2]) {
+            return player ;
+        }
+        if (board[0][i] == board[1][i] && board[1][i] == board[2][i]) {
+            return player;
+        }
+    }
+    if (board[0][0] == board[1][1] && board[1][1] == board[2][2]) {
+        return player;
+    }
+    if (board[0][2] == board[1][1] && board[1][1] == board[2][0]) {
+        return player;
+    }
+    return 0;
 }
 
 
@@ -51,9 +68,33 @@ int main()
 {
     int a;
     drawing_board();
-    cout << "enter the location:";
-    cin >> a;
-    gues(a);
+	int player = 1;
+	int player2 = 2;
+	for (int i = 0; i < 9; i++) {
+        if (player == 1) {
+            cout << "Player 1, enter a slot number: ";
+            cin >> a;
+            gues(a, 'X');
+            drawing_board();
+            if (check_winner(player)) {
+                cout << "Player 1 wins!" << endl;
+                break;
+            }
+            player = 2;
+        }
+        else {
+            cout << "Player 2, enter a slot number: ";
+            cin >> a;
+            gues(a, 'O');
+            drawing_board();
+            if (check_winner(player2)) {
+                cout << "Player 2 wins!" << endl;
+                break;
+            }
+            player = 1;
+        }
+    }
+    
     
 
 }
